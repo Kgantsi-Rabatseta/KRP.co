@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>What's your name?</title>
+<link type="text/css" rel="stylesheet" href="../../Styles/loginTableStyles.css"></link>
+<link type="text/css" rel="stylesheet" href="../../Styles/webLayout.css"></link>
+</head>                                                                 
+<body>
+<h1>Log In To KRJ SIte</h1>
+
+<hr/>
+<form method = "post" action = "Login.php">
+<div class="tableDiv">
+<table>
+	<caption>Login Details</caption>
+	<tr>
+		<td>User Name : </td>
+		<td><input type = "text" name = "userName" required value = "" placeholder="Type User Name"></td>
+	</tr>
+	<tr>
+		<td>Password :</td>
+		<td><input type = "password" name = "password" required value = "" placeholder="Type In Password"></input></td>
+	</tr>
+	<tr >
+		<td colspan="2">
+			<input type = "submit" value="Sign In"></input>
+		</td>
+		
+	</tr>
+	</table>
+	</div >
+		<div  class="tableDiv"> Gender : 
+			<input type = "radio"
+				name = "gender"
+				value = "Male" checked="true">Male </input>
+		  <input type = "radio"
+		  		name = "gender"
+				value = "Female">Female </input>
+		</div>
+			<hr>
+			
+		</form>
+	</body>
+</html>
