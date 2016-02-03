@@ -1,0 +1,167 @@
+﻿/*Sections*/
+body {
+	background-image: url("../Resources/Site_Images/tpWaves_Orange.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 110%;
+    min-height: 600px;
+    min-width: 600px;
+    
+}
+
+nav{
+	top: -50px;
+}
+
+footer {
+    background-color: orangered;
+    border-top: 1px outset white;
+    bottom: 0px;
+    color: white;
+    height: 50px;
+    left: 0px;
+    padding: 20px;
+    padding-top: 5px;
+    position: fixed;
+    width: 100%;
+}
+
+header {
+    background-color: red;
+    border-bottom: 1px outset black;
+    color: maroon;
+    height: 75px;
+    left: 0px;
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
+}
+
+/* Headings*/
+.header {
+    background-color: purple;
+    color: Blue;
+     box-shadow: -5px 5px 10px maroon;
+}
+
+.content{
+	background-color: transparent;
+	font-weight: bold;
+	color: #c0c0c0;
+	 box-shadow: 5px 5px 10px yellow;
+}
+
+/*Table components*/
+
+
+th.thTotalLabel {
+   background-color: black;
+    color: white;
+}
+
+th.thTotalValue {
+  background-color: black;
+    color: white;
+}
+
+td{
+    border-style: solid;
+    border-width: 2px;
+    background-color: #ffdbdb;
+    padding: 5px;
+    border-color: white;
+	text-align: justify;
+}
+
+th {
+    background-color: limegreen;
+    border-color: gold;
+    border-style: outset;
+    border-width: 3px;
+}
+
+caption {
+    background-color: limegreen;
+    border-bottom: 3px white outset;
+    border-left: 3px white outset;
+    border-right: 3px white outset;
+    border-top: 3px white outset;
+    font-weight: bold;
+    padding-bottom: 3px;
+    padding-top: 5px;
+    z-index: 99;
+}
+
+/*Links and hyperlinks*/
+a.menuLinks {
+    background-color: white;
+    border-radius: .5em;
+    border-style: outset;
+    box-shadow: -5px 5px 10px maroon;
+    color: Red;
+    font-size: 12pt;
+    font-weight: bold;
+    margin: 4px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    opacity: 0.6;
+
+
+   
+    
+}
+
+a.menuLinks:hover {
+    background-color: black;
+    color: white;
+
+       
+    transform: translate(200px,100px) rotate(4deg);
+    -ms-transform:  rotate(-5deg) skew(-3deg);
+    -moz-transform: translate(200px,100px) rotate(4deg);
+    -o-transform:  rotate(4deg);
+    -webkit-transform:  rotate(4deg);
+}
+
+
+/*Text Containers*/
+span.timeSpan {
+    background-color: white;
+    border: 3px grey outset;
+    border-bottom-left-radius: .2em;
+    border-bottom-right-radius: .2em;
+    box-shadow: 3px 3px grey;
+    color: black;
+    font-size: 10pt;
+    font-weight: bold;
+    left: -75px;
+    margin-left: 50%;
+    opacity: 0.75;
+    padding: 3px;
+    position: fixed;
+    text-align: center;
+    text-decoration: none;
+    top: -2px;
+    width: 150px;
+    z-index: 99999;
+}
+
+div.bodySection {
+    padding-bottom: 70px;
+    padding-top: 120px;
+}
+
+div.contentShow {
+	background-color: white;
+    opacity: 0.6;
+    border-radius: .3em;
+    padding-left: 15px;
+}
+.emailLink{
+	text-decoration: none;
+}
+/*Input Elements*/
+
