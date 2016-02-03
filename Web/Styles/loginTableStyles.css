@@ -1,10 +1,10 @@
-table{
+table.simple{
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 }
 
 
-caption{
+caption.simple{
  font-weight: bold;
  border-top :1px solid black;
  border-bottom :2px solid black;
@@ -14,7 +14,7 @@ caption{
 
 
 
-td{
+td.simple{
  text-align:center;
  background-color: lightgray;
 }

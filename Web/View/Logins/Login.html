@@ -2,24 +2,35 @@
 <html>
 <head>
 <title>What's your name?</title>
-<link type="text/css" rel="stylesheet" href="../../Styles/loginTableStyles.css"></link>
+
 <link type="text/css" rel="stylesheet" href="../../Styles/webLayout.css"></link>
+<link type="text/css" rel="stylesheet" href="../../Styles/MainStyle.css"></link>
+<link type="text/css" rel="stylesheet" href="../../Styles/bootstrap.css"></link>
+<link type="text/css" rel="stylesheet" href="../../Styles/loginTableStyles.css"></link>
+ <script type="text/javascript" src="../../Scripts/TimeScript.js"></script>
 </head>                                                                 
 <body>
-<h1>Log In To KRJ SIte</h1>
+
+
+<header>
+	<span class="timeSpan" id="timeKeeper"></span>
+	<script type="text/javascript">window.onload = setTimeS("timeKeeper");</script><h1>Rabatseta.co.za</h1>
+
+</header>
+<div class="bodySection">
 
 <hr/>
 <form method = "post" action = "Login.php">
 <div class="tableDiv">
-<table>
-	<caption>Login Details</caption>
+<table style="overflow: hide;">
+	<caption class="simple">Login Details</caption>
 	<tr>
-		<td>User Name : </td>
-		<td><input type = "text" name = "userName" required value = "" placeholder="Type User Name"></td>
+		<td class="simple">User Name : </td>
+		<td class="simple"><input type = "text" name = "userName" required value = "" placeholder="Type User Name"></td>
 	</tr>
 	<tr>
-		<td>Password :</td>
-		<td><input type = "password" name = "password" required value = "" placeholder="Type In Password"></input></td>
+		<td class="simple">Password :</td>
+		<td class="simple"><input type = "password" name = "password" required value = "" placeholder="Type In Password"></input></td>
 	</tr>
 	<tr >
 		<td colspan="2">
@@ -40,5 +51,9 @@
 			<hr>
 			
 		</form>
+		</div>
+		<footer>
+			Copyright &copy; 2016 
+		</footer>	
 	</body>
 </html>

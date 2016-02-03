@@ -2,7 +2,10 @@
 <head>
 <title>What's your name?</title>
 </head>
-<body>
+<body> <header>
+	<span id=""
+	
+</header>
 <h1>Validating User</h1>
  <?php include  "..\..\Controllers\loginController.php"; ?>
 <script type="text\javascript"> alert("Validating User Credantials");</script>
