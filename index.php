@@ -1,15 +1,13 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>
-            Redirect
-        </title>
-		<link type="text/css" rel="stylesheet" href="../../Styles/MainStyle.css"></link>
-		<META http-equiv="refresh" content="2;URL=http://www.indiana.edu/~account/new-directory"> 
-	</head>
-	<body>
+<?php
 
-   If Redirect fails Please &nbsp<a href="Web/View/Logins/Login.html">Go To Login</a>
+// change the following paths if necessary
+$yii=dirname(__FILE__).'/../framework/yii.php';
+$config=dirname(__FILE__).'/protected/config/main.php';
 
-	</body>
-</html>
+// remove the following lines when in production mode
+defined('YII_DEBUG') or define('YII_DEBUG',true);
+// specify how many levels of call stack should be shown in each log message
+defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',3);
+
+require_once($yii);
+Yii::createWebApplication($config)->run();
